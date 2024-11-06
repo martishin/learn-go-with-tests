@@ -7,5 +7,8 @@ test:
 bench:
 	go test -bench=. ./...
 
+cover:
+	go test -cover ./...
+
 doc:
 	godoc -http=localhost:8000
