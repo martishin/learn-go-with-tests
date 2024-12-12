@@ -12,3 +12,6 @@ cover:
 
 doc:
 	godoc -http=localhost:8000
+
+lint:
+	golangci-lint run ./...
