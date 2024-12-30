@@ -15,3 +15,6 @@ doc:
 
 lint:
 	golangci-lint run ./...
+
+test-race:
+	go test -race ./...
